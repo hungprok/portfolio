@@ -53,7 +53,6 @@
     </nav>
     <section id="home-section" class="hero container pl-2" style="padding-top: 10%; height: 100vh;">
         <p class="text-right" style="font-size: 60px; margin-bottom: 0px; padding-bottom: 0px;">Hello strangers!</p>
-        <p class="text-right" style="font-size: 20px; color: white; margin-top: 0px;">Welcome to my page! Let me introduce myself:</p>
         <div class='text-white pr-3 pt-5 d-flex' style='height: 95v;'>
             <div class='pl-2 ' style='color: grey; font-size: 60px; line-height: 58px; word-spacing: 15px'>
                 <p>I am a<span style=' font-weight: bold ' class="typewrite red text-white" data-period={2000} data-type='[ " Business Analyst"] '></span>
@@ -64,15 +63,14 @@
         </div>
     </section>
 
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-        <div class="container text-center">
-
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section" style="height: 70vh; margin-bottom: 10vh">
+        <div class="container text-center" style="margin-top: 10vh">
             <div class="row justify-content-center pb-3">
                 <div class="col-md-12 heading-section ftco-animate">
-                    <h1 class="big">About</h1>
+                    <h1 class="big big-2">About me</h1>
                     <h2 class="mb-4">About Me</h2>
                     <h4>My full name is <span class="text-primary">Nguyễn Hưng</span> - yup, you read it right, it has only two words.
-                        <br>I love doing business and also be passionate in creating wonderful products like softwares.<br>Therefore, to achieve both dreams, I decided to become a <span class="text-primary">Product Owner.</span>
+                        <br>I love doing business and also be passionate in creating wonderful softwares products.<br>Therefore, to achieve both dreams, I decided to become a <span class="text-primary">Product Owner.</span>
                         <br>Being a <span class="text-primary"> Business Analyst</span> and <span class="text-primary"> Full-stack Developer</span> is best way to do it.
                     </h4>
                 </div>
@@ -283,6 +281,26 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(/images/chat-app.png);">
+                                <div class="overlay"></div>
+                                <div class="text text-center p-4">
+                                    <h3>
+                                        CHAT APP</h3>
+                                    <div>
+                                        <a href="https://blissful-aryabhata-0d7ed3.netlify.app/" class="btn btn-outline-light m-2" style="background-color: transparent;">DEMO</a>
+                                        <a href="https://github.com/hungprok/chat-app-frontend.git" class="btn btn-outline-light m-2" style="background-color: transparent;">GIT FRONTEND</a>
+                                        <a href="https://github.com/hungprok/chat-app-backend.git" class="btn btn-outline-light m-2" style="background-color: transparent;">GIT BACKEND</a>
+                                        <p class="text-white" ><strong>Description: </strong>A real-time chat app using ReactJS for frontend and NodeJS for backend with MongoDB (using Mongoose) as database platform. Socket.io is also applied</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-md-4">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5e7c7284984d660009d898c9/screenshot.png);">
                         <div class="overlay">
@@ -295,10 +313,32 @@
                             <div>
                                 <a href="https://nguyenhung-tictactoe.netlify.com/" class="btn btn-outline-light m-2" style="background-color: transparent;">DEMO</a>
                                 <a href="https://github.com/hungprok/Tictactoe.git" class="btn btn-outline-light m-2" style="background-color: transparent;">GITHUB</a>
+                                <p class="text-white" ><strong>Description: </strong>A project using ReactJS</p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-4">
+                    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5e6f00d705dd1400081f7fde/screenshot.png);">
+                        <div class="overlay">
+
+                        </div>
+                        <div class="text text-center p-4">
+                            <h3>
+                                <a href="https://funnyordie.netlify.app/">TWITTER CLONE</a>
+                            </h3>
+                            <div>
+                                <a href="https://funnyordie.netlify.app/" class="btn btn-outline-light m-2" style="background-color: transparent;">DEMO</a>
+                                <a href="https://github.com/hungprok/Twitter.git" class="btn btn-outline-light m-2" style="background-color: transparent;">GITHUB</a>
+                            </div>
+                            
+                                <p class="text-white" ><strong>Description: </strong>A Twitter-like social platform using pure Javascript</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-md-8">
                     <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5e65b2657a9ac8af52595676/screenshot.png);">
                         <div class="overlay"></div>
@@ -308,6 +348,7 @@
                             <div>
                                 <a href="https://invasion-of-aliens.netlify.com/" class="btn btn-outline-light m-2" style="background-color: transparent;">DEMO</a>
                                 <a href="https://github.com/hungprok/Canvas-Game.git" class="btn btn-outline-light m-2" style="background-color: transparent;">GITHUB</a>
+                                <p class="text-white" ><strong>Description: </strong>Canvas game using pure JavaScript</p>
                             </div>
                         </div>
                     </div>
@@ -321,6 +362,7 @@
                             <div>
                                 <a href="https://nguyenhung-cinemax-cloneimdb.netlify.com/" class="btn btn-outline-light m-2" style="background-color: transparent;">DEMO</a>
                                 <a href="https://github.com/hungprok/MoviePage.git" class="btn btn-outline-light m-2" style="background-color: transparent;">GITHUB</a>
+                                <p class="text-white"><strong>Description: </strong>Application of ReactJS combined with RESTful API from MovieDB</p>
                             </div>
                         </div>
                     </div>
@@ -336,6 +378,7 @@
                                     <div>
                                         <a href="https://coderschool-hungnguyen.netlify.com/" class="btn btn-outline-light m-2" style="background-color: transparent;">DEMO</a>
                                         <a href="https://github.com/hungprok/Coderschool.git" class="btn btn-outline-light m-2" style="background-color: transparent;">GITHUB</a>
+                                        <p class="text-white"><strong>Description: </strong>A practice of cloning any ramdom website using HTML and CSS</p>
                                     </div>
                                 </div>
                             </div>
